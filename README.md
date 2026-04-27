@@ -16,11 +16,13 @@ Jupyter viewer without re-running anything.
 | Path | Purpose |
 |---|---|
 | `2540640_skinCancer.ipynb` | Main notebook with all experiments and rendered outputs. |
+| `diabetic_data.csv` | UCI Diabetes 130-US Hospitals dataset used by the notebook. |
 | `requirements.txt` | Pinned Python dependencies used to produce the rendered outputs. |
 | `README.md` | This file. |
 
-The dataset file `diabetic_data.csv` is **not included** in this repository — see
-*Data setup* below for the download instructions.
+The dataset file `diabetic_data.csv` is included in the repository so the
+notebook can be re-run end-to-end without any additional downloads. The original
+source is documented under *Data setup* below for reference.
 
 ---
 
@@ -48,18 +50,19 @@ python -m ipykernel install --user --name nam-project --display-name "NAM Projec
 
 ### 2. Data setup
 
-Download the UCI Diabetes 130-US Hospitals dataset:
+The UCI Diabetes 130-US Hospitals dataset (`diabetic_data.csv`) is bundled in
+the repository root, so no additional download is required. For reference, the
+original source is:
 
 - Source: <https://archive.ics.uci.edu/dataset/296/diabetes+130-us+hospitals+for+years+1999-2008>
 - Direct ZIP: <https://archive.ics.uci.edu/static/public/296/diabetes+130+us+hospitals+for+years+1999+2008.zip>
 
-Extract the ZIP, then place `diabetic_data.csv` in the repository root next to
-the notebook:
+Expected layout:
 
 ```
 NAM_Project/
 ├── 2540640_skinCancer.ipynb
-├── diabetic_data.csv          # ← place the UCI file here
+├── diabetic_data.csv
 ├── requirements.txt
 └── README.md
 ```

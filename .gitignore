@@ -13,8 +13,7 @@ __pycache__/
 ~$*.docx
 ~$*.xlsx
 
-# Dataset (downloaded separately, see README.md)
-diabetic_data.csv
+# Archives
 *.zip
 
 # Project documents
