@@ -15,7 +15,7 @@ Jupyter viewer without re-running anything.
 
 | Path | Purpose |
 |---|---|
-| `2540640_skinCancer.ipynb` | Main notebook with all experiments and rendered outputs. |
+| `2540640_NAM.ipynb` | Main notebook with all experiments and rendered outputs. |
 | `diabetic_data.csv` | UCI Diabetes 130-US Hospitals dataset used by the notebook. |
 | `requirements.txt` | Pinned Python dependencies used to produce the rendered outputs. |
 | `README.md` | This file. |
@@ -29,7 +29,7 @@ source is documented under *Data setup* below for reference.
 ## Quick start (read-only)
 
 If you just want to inspect the results, open
-`2540640_skinCancer.ipynb` directly on GitHub or in VS Code / JupyterLab. All
+`2540640_NAM.ipynb` directly on GitHub or in VS Code / JupyterLab. All
 figures, tables and classification reports are pre-rendered.
 
 ---
@@ -61,7 +61,7 @@ Expected layout:
 
 ```
 NAM_Project/
-├── 2540640_skinCancer.ipynb
+├── 2540640_NAM.ipynb
 ├── diabetic_data.csv
 ├── requirements.txt
 └── README.md
@@ -69,7 +69,7 @@ NAM_Project/
 
 ### 3. Run the notebook
 
-Open `2540640_skinCancer.ipynb` in JupyterLab or VS Code, select the
+Open `2540640_NAM.ipynb` in JupyterLab or VS Code, select the
 `NAM Project` kernel, and execute cells top-to-bottom.
 
 The notebook is organised into five experimental phases:
