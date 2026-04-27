@@ -1,33 +1,33 @@
-# Python
+# Python virtual environments and caches
 .venv/
 venv/
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
 
-# OS
+# Operating system files
 .DS_Store
 ~$*
 
-# Office lock files
+# Office temporary lock files
 ~$*.docx
 ~$*.xlsx
 
-# Data (not redistributed)
+# Dataset (downloaded separately, see README.md)
 diabetic_data.csv
 *.zip
 
-# Reports / drafts (not part of code submission)
+# Project documents
 *.docx
 *.pdf
 
-# Project images / generated plots
+# Project figures and images
 *.png
 *.jpg
 *.jpeg
 *.JPG
 
-# Auxiliary scripts and notes
+# Local working files outside the published deliverable
 _*.py
 *.md
 !README.md
