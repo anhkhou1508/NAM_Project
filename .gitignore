@@ -1,0 +1,38 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+~$*
+
+# Office lock files
+~$*.docx
+~$*.xlsx
+
+# Data (not redistributed)
+diabetic_data.csv
+*.zip
+
+# Reports / drafts (not part of code submission)
+*.docx
+*.pdf
+
+# Project images / generated plots
+*.png
+*.jpg
+*.jpeg
+*.JPG
+
+# Auxiliary scripts and notes
+_*.py
+*.md
+!README.md
+test.ipynb
+strip_markings.py
+extract_text.py
+reportNEW.md
+marking_prompt.md

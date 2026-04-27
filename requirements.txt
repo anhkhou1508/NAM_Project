@@ -1,0 +1,16 @@
+# Pinned to the versions used to produce the rendered notebook outputs.
+# Tested with Python 3.11 on macOS.
+dnamite==1.0.8
+imbalanced-learn==0.14.1
+ipykernel==7.2.0
+joblib==1.5.3
+matplotlib==3.10.8
+numpy==2.4.3
+pandas==3.0.1
+scikit-learn==1.8.0
+scikit-survival==0.27.0
+scipy==1.17.1
+seaborn==0.13.2
+statsmodels==0.14.6
+torch==2.10.0
+tqdm==4.67.3
